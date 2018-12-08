@@ -1,0 +1,187 @@
+    * {
+        box-sizing: border-box;
+    }
+
+    header,
+    nav,
+    main,
+    footer {
+        display: block;
+    }
+
+    html {
+        background-image: url(../images/background.jpg);
+    }
+
+    header {
+        background-color: #000033;
+        background-image: url(../images/sunset.jpg);
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+
+    footer {
+        font-size: 0.7em;
+        text-align: center;
+        padding: 10px;
+    }
+
+    body {
+        margin: 0 auto;
+        font-family: Verdana, Arial, sans-serif;
+        background-color: #90C7E3;
+        color: #666666;
+    }
+
+    h1 {
+        display: inline;
+        line-height: 200%;
+        color: #FFFFFF;
+        padding-left: 10px;
+    }
+
+    h2 {
+        color: #3399CC;
+        font-family: Georgia, serif;
+        font-weight: bold;
+        font-size: 1.5em;
+    }
+
+    h3 {
+        color: #000033;
+    }
+
+    nav {
+        text-align: left;
+        font-weight: bold;
+        background-color: #90C7E3;
+        padding: 5px;
+        float: left;
+        width: 200px;
+        height: 100%;
+        z-index: 1;
+        overflow-x: hidden;
+        padding-top: 20px;
+        text-decoration: none;
+    }
+    
+    nav a:link {
+        text-decoration: none;
+        color: #000033;
+    }
+
+    nav a:visited {
+        text-decoration: none;
+        color: #344873;
+    }
+
+    nav a:hover {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding-left: 2em;
+    }
+    address {
+        font-style: normal;
+    }
+
+    main {
+        margin-left: 200px;
+        padding-bottom: 1em;
+        display: block;
+        margin-top: 0px;
+        padding-top: 0px;
+        background-color: #FFFFFF;
+    }
+
+    .main-body {
+        padding-left: 20px;
+    }
+
+    #wrapper {
+        width: 80%;
+        margin: 0 auto;
+        box-shadow: 3px 3px 3px #333333;
+    }
+img {
+    width: 100%;
+    }
+
+a {
+text-decoration: none;
+}
+input[type=text],input type=[tel] {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+    }
+    textarea{
+        width:80%;
+    }
+
+    .col-25 {
+        float: left;
+        width: 25%;
+        margin-top: 4px;
+    }
+
+    .col-75 {
+        float: left;
+        width: 30%;
+        margin-top: 4px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+@media only screen and (max-width: 726px) {
+        * {
+            box-sizing: border-box;
+        }
+
+        header {
+            background-image: url(../images/sunset.jpg);
+            /*height: 128px;*/
+        }
+
+            header h1 {
+                padding-top: 1em;
+            }
+
+        h1 {
+            font-size: 2em;
+            text-align: center;
+            padding: 0px;
+        }
+
+        nav {
+            margin: 0px;
+        }
+
+            nav a {
+                display: inline-block;
+                padding: .2em;
+                width: auto;
+                border-bottom: #fef6c2 solid 1px;
+            }
+
+            nav li {
+                display: block;
+            }
+
+        main {
+            padding-top: 1px;
+        }
+    }
+
+
+        @media only screen and (max-width: 1024px) {
+            * {
+                box-sizing: border-box;
+            }
