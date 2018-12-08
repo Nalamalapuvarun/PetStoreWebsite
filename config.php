@@ -1,6 +1,6 @@
 <?php
 function con(){
-$con = mysqli_connect('uta.cloud','varunnal_root','z^cE4@pNk.Ko','varunnal_pet') or die("Unable to connect to the database");
+$con = mysqli_connect('uta.cloud','username','password','dbname') or die("Unable to connect to the database");
 return $con;	
 }
 function generate_password( $length ) {
